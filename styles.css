@@ -1,0 +1,73 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: brown;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer {
+  background: brown;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Home Section */
+.welcome {
+  text-align: center;
+}
+
+/* Resume Section */
+.resume h1, .resume h2 {
+  color: #333;
+}
+
+.resume ul {
+  list-style: none;
+}
+
+.resume ul li {
+  margin: 10px 0;
+}
+
+/* Bio Section */
+.bio {
+  max-width: 800px;
+  margin: auto;
+}
